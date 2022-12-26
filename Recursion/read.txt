@@ -3,4 +3,4 @@ recursion(when a function call itself is called recursion)
 when solution of big/complex problem depends on any same type of small/simple problem then at that time we use recursion.
 example:
     2^4 = 2 * 2^3;
-    f(n) = 2 * f(n-1);
+    f(n) = n * f(n-1);
