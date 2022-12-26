@@ -8,10 +8,10 @@ int power(int n){
     }
     // cout<<"\n before f: "<<n;
     // int first = power(n-1);
-    // int second = n * first;
+    // int second = 2 * first;
     // cout<<"\n after s: "<<second;
 
-    return n * power(n-1);
+    return 2 * power(n-1);
 
     // return second;
 
@@ -24,6 +24,6 @@ int main(){
     cin>>n;
 
     int result = power(n);
-    cout<<"\npower of 2 "<<result;
+    cout<<"\npower of n(2): "<<result;
    
 }
