@@ -4,3 +4,7 @@ when solution of big/complex problem depends on any same type of small/simple pr
 example:
     2^4 = 2 * 2^3;
     f(n) = n * f(n-1);
+
+recursion
+   |----Base case is important and base case return is also important.
+   |----recursive function is mandatory
