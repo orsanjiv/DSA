@@ -3,7 +3,7 @@ using namespace std;
 
 void sayDigits(int num,string arr[]){
     if(num==0){
-        cout<<"zero";
+        // cout<<"zero";
         return ;
     }
 
@@ -16,7 +16,7 @@ void sayDigits(int num,string arr[]){
 
 int main(){
 
-    string arr[10] = {"zero","one","two","three","four","five","siz","seven","eight","nine",};
+    string arr[10] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
 
     int num;
     cin>>num;
