@@ -4,25 +4,25 @@
 #include<iostream>
 using namespace std;
 
-int power(int num,int pow){
+int power(int num,long long int pow){
     if(num==0){
         return 0;
     }
     if(pow==0){
         return 1;
     }
-    int ans = num * power(num,pow-1);
+    long long int ans = num * power(num,pow-1);
 
     return ans;
 }
 
 int main(){
-   int num,pow;
+   long long int num,pow;
    cout<<"num: "<<endl;
    cin>>num;
    cout<<"pow: "<<endl;
    cin>>pow;
 
-   int result = power(num,pow);
+   long long int result = power(num,pow);
    cout<<num<<" power "<<pow<<" is "<<result;
 }
